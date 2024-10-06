@@ -4,6 +4,7 @@ const lt = document.getElementById("LT")
 const na = document.getElementById("NA")
 const ro = document.getElementById("Ro")
 const ta = document.getElementById("TA")
+const at = document.getElementById("At")
 
 function createLink(el, link) {
     el.addEventListener("click", () => {
@@ -17,3 +18,4 @@ createLink(lt, "https://github.com/Harshit264/Projects/tree/main/Lead_Tracker")
 createLink(na, "https://github.com/Harshit264/Projects/tree/main/Note_App")
 createLink(ro, "https://github.com/Harshit264/Projects/tree/main/Roshambo")
 createLink(ta, "https://github.com/Harshit264/Projects/tree/main/Todo_App")
+createLink(at, "https://github.com/Harshit264/Projects/tree/main/Atmos")
